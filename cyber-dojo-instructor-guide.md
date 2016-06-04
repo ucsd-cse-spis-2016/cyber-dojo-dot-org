@@ -192,3 +192,13 @@ Go to the https://cyber-dojo.org main page, and click to "Create a practice sess
 Select Python and py.test and click next and shown below:
 
 ![cyber-dojo-select-Python-py.test-next.png](/IMAGES/cyber-dojo-select-Python-py.test-next.png)
+
+## Step 3c: Select an exercise (any exercise)
+
+The next step offers a series of exercises.  It doesn't really matter which one you select, since the only difference among them is
+the initial contents of the instructinos file, which you are going to over write anyway.  
+
+The default is `verbal`, in which the instructions basically say "your instructor will tell you what to do".   This is also a way to use cyber dojo "on the fly" without having done any set up in advance (provided your students already understand the basics of the environment, and/or how to write Python functions and test cases.)    Just select `verbal` or for that matter, any of the other problems, and then click next, as shown below:
+
+![cyber-dojo-org-create-select-verbal-exercise.png](/IMAGES/cyber-dojo-org-create-select-verbal-exercise.png)
+
