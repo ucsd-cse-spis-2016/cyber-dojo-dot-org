@@ -204,6 +204,14 @@ The default is `verbal`, in which the instructions basically say "your instructo
 
 ## Step 3d: Record the hex id of your exercise
 
-At the next step, you will be given a hexadecimal number that is the id of your exercise, as shown below. **You should record this number**. It is difficult (and sometimes impossible) to retrieve this number later if you misplace it.  You'll just have to start over and create a new exercise.
+At the next step, you will be given a hexadecimal number that is the id of your exercise, as shown below. **You should record this number**. It is difficult (and sometimes impossible) to retrieve this number later if you misplace it.  You'll just have to start over and create a new exercise.   *After you click "next", stay in the same browser window for the next step*.
 
 ![cyber-dojo-your-new-id-is-260CD9.png](/IMAGES/cyber-dojo-your-new-id-is-260CD9.png)
+
+## Step 3e: In same browser, click "enter a practice session".
+
+In the same browser where you did step 3d, click **enter a practice session* as shown below.  This will keep you in the context of the same exercise you are in the process of creating.
+
+![cyber-dojo-click-enter-practice-session.png](/IMAGES/cyber-dojo-click-enter-practice-session.png)
+
+
