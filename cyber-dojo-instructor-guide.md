@@ -202,3 +202,8 @@ The default is `verbal`, in which the instructions basically say "your instructo
 
 ![cyber-dojo-org-create-select-verbal-exercise.png](/IMAGES/cyber-dojo-org-create-select-verbal-exercise.png)
 
+## Step 3d: Record the hex id of your exercise
+
+At the next step, you will be given a hexadecimal number that is the id of your exercise, as shown below. **You should record this number**. It is difficult (and sometimes impossible) to retrieve this number later if you misplace it.  You'll just have to start over and create a new exercise.
+
+![cyber-dojo-your-new-id-is-260CD9.png](/IMAGES/cyber-dojo-your-new-id-is-260CD9.png)
