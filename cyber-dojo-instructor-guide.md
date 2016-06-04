@@ -212,6 +212,6 @@ At the next step, you will be given a hexadecimal number that is the id of your 
 
 In the same browser where you did step 3d, click **enter a practice session* as shown below.  This will keep you in the context of the same exercise you are in the process of creating.
 
-![cyber-dojo-enter-practice-session.png](/IMAGES/cyber-dojo-enter-practice-session.png)
+![cyber-dojo-enter-a-practice-session.png](/IMAGES/cyber-dojo-enter-a-practice-session.png)
 
 
