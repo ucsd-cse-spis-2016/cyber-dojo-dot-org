@@ -112,3 +112,74 @@ signal the error in some way appropriate to the language.
 
 Then, when transferring the problem to cyber-dojo.org, the instructor can just copy and paste the text into the `instructions` file in the sample problem.
 
+### Step 2d: Write tests in the selected framework
+
+These instructions assume py.test.  For unittest, consult: [Using unittest with cyber-dojo.org](cyber-dojo-unittest.md)
+
+In the file `test_`_problem_`.py`, write unit tests for your problem. For example, in the file test_sum_of_the_first_n_primes.py, you might write:
+
+```Python
+
+import pytest
+from sum_of_first_n_primes import sum_of_first_n_primes
+
+def test_given_1_should_return_2():
+  assert sum_of_first_n_primes(1)==2
+
+def test_given_2_should_return_5():
+  assert sum_of_first_n_primes(2)==5
+  
+def test_bad_param_negative():
+    with pytest.raises(ValueError):
+        x = sum_of_first_n_primes(-4)
+        
+def test_bad_param_string():
+    with pytest.raises(ValueError):
+        x = sum_of_first_n_primes("foo")
+        
+```
+
+### Step 2e: Write stub for function
+
+As you may know, in test driven development, a "stub" is a version of the function that is syntactically correct, but that deliberately returns the wrong answer, so as to *test the test framework*, i.e. ensure that when the implementation is wrong, that the test framework tells us that.
+
+So the next step is to create a a stub for the function we are testing in the file _problem_`.py`.
+
+For example, in the `sum_of_first_n_primes.py`, you may write a stub for your function as follows:
+
+```
+# sum_of_first_n_primes.py
+
+def sum_of_first_n_primes(n):
+  return "stub"
+
+```
+
+### Step 2f: Write stub for function
+
+To test your program, you can do one of two things:
+
+(1) At command line: run the command `python -m pytest test*.py`
+(2) In IDLE: Add the following to your `test_sum_of_n_primes.py` file at the end, and then run that file:
+```Python
+if __name__ == '__main__':
+    pytest.main()
+```
+
+At this point, you likely have a version that is suitable as a "starting point" for your students.  Save a version of the files in this state.
+
+If you are developing in a private github repo, making a commit with an appropriate commit message, or even a version tag, is a good solution. Or you can just copy this to a particular subdirectory.
+
+### Step 2g: Try solving the problem
+
+Provided you have saved a separate copy of the "starting point files", it is probably a good idea to try solving the problem outside of cyber-dojo at this point in a *different* directory.   That way, you can make sure that you are satified with the description of the problem, the choices for names of functions, etc.     
+
+Proceed, and then make any needed adjustments to the "starting point files" you saved earlier.
+
+You are now ready to set up the problem in cyber-dojo.org
+
+
+
+Save a version of your solution.
+
+
