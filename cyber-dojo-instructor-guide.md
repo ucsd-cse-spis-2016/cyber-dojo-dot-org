@@ -181,3 +181,6 @@ You are now ready to set up the problem in cyber-dojo.org
 
 # Step 3: Set up your problem in cyber-dojo.org
 
+Go to the https://cyber-dojo.org main page, and click to "Create a practice session":
+
+![cyber-dojo-click-create-a-practice-session.png](/IMAGES/cyber-dojo-click-create-a-practice-session.png)
