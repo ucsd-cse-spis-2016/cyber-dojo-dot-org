@@ -179,7 +179,5 @@ Proceed, and then make any needed adjustments to the "starting point files" you 
 You are now ready to set up the problem in cyber-dojo.org
 
 
-
-Save a version of your solution.
-
+# Step 3: Set up your problem in cyber-dojo.org
 
