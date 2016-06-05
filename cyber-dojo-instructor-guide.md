@@ -364,6 +364,6 @@ You can also add additional files, or delete files as needed (for example, if yo
 
 When you have the files set up, it should look something like this:
 
-![cyber-dojo-is-prime-starting-point-shark.png](/IMAGES/cyber-dojo-initial-is-prime-starting-point-shark.png)
+![cyber-dojo-is-prime-starting-point-shark.png](/IMAGES/cyber-dojo-is-prime-starting-point-shark.png)
 
 You are then ready to save this into a session that you can share with students as a new problem.
