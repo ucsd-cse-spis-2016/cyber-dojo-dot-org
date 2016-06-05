@@ -1,4 +1,4 @@
-# Instructor Guide to cyber-dojo.org
+# UCSD CSE SPIS Instructor Guide to cyber-dojo.org
 
 To use cyber-dojo.org to set up an exercise for students:
 
@@ -249,6 +249,23 @@ If you are developing in a private github repo, making a commit with an appropri
 
 Provided you have saved a separate copy of the "starting point files", it is may be a good idea to try solving the problem outside of cyber-dojo at this point in a *different* directory.   That way, you can make sure that you are satified with the description of the problem, the choices for names of functions, before setting up the final version in cyber-dojo.org. 
 Proceed, and then make any needed adjustments to the "starting point files" you saved earlier.
+
+When all the tests pass, it will look something like this in IDLE:
+
+```
+============= RESTART: /Users/pconrad/Documents/test_is_prime.py =============
+============================= test session starts ==============================
+platform darwin -- Python 2.7.11, pytest-2.9.1, py-1.4.31, pluggy-0.3.1
+rootdir: /Users/pconrad/Documents, inifile: 
+
+collecting 0 items
+collecting 6 items
+collected 6 items 
+
+test_is_prime.py ......
+
+=========================== 6 passed in 0.66 seconds ===========================
+```
 
 You are now ready to set up the problem in cyber-dojo.org
 
