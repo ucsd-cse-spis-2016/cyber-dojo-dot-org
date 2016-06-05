@@ -289,3 +289,4 @@ In the same browser where you did step 3d, click **enter a practice session* as 
 
 
 TODO: Continue with examples of pasting in the code, then clicking on the icon for the animal avatar, then clicking on "create a practice session from gorilla nn" where nn is the number of the iteration of the tests...
+ 
