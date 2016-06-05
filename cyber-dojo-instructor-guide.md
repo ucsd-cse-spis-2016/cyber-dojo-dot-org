@@ -136,10 +136,17 @@ import pytest
 from is_prime import is_prime
 
 def test_is_prime_1():
-   assert isPrime(1) == False
+  assert isPrime(1) == False
 
 def test_is_prime_2():
-   assert isPrime(2) == True
+  assert isPrime(2) == True
+
+def test_is_prime_2251():
+  assert isPrime(2251) == true
+  
+def test_is_prime_2253():
+  assert isPrime(2253) == false
+
 
 # Note to students: continue writing additional tests
 # following the model above.
