@@ -189,7 +189,7 @@ parameter is not an int
 ```Python
 # is_prime.py
 
-def is_prime(n):
+def isPrime(n):
   # if not isinstance(n, int):
   #   raise ValueError("n should be an int")
   return "stub"
