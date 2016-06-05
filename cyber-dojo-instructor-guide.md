@@ -124,7 +124,7 @@ Then, when transferring the problem to cyber-dojo.org, the instructor can just c
 
 These instructions assume py.test.  For unittest, consult: [Using unittest with cyber-dojo.org](cyber-dojo-unittest.md)
 
-In the file `test_`_problem_`.py`, write unit tests for your problem. For example, in the file test_sum_of_the_first_n_primes.py, you might write:
+In the file `test_`_problem_`.py`, write unit tests for your problem. For example, in the file test_is_prime.py, you might write:
 
 ```Python
 import pytest
@@ -138,7 +138,7 @@ def test_is_prime_2():
 
 # Note to students: continue writing additional tests
 # following the model above.
-```Python
+```
 
 If you want to show models of testing for exception conditions as well, you can include the following:
 
@@ -152,8 +152,7 @@ def test_bad_param_string():
         x = isPrime("foo")
 ```
 
-        
-```
+Another example appears here [examples/sum_1st_n_primes/test_sum_1st_n_primes.py](examples/sum_1st_n_primes/test_sum_1st_n_primes.py).
 
 ### Step 2e: Write stub for function
 
@@ -161,28 +160,35 @@ As you may know, in test driven development, a "stub" is a version of the functi
 
 So the next step is to create a a stub for the function we are testing in the file _problem_`.py`.
 
-For example, in the `sum_of_first_n_primes.py`, you may write a stub for your function as follows:
+For example, in the `is_prime.py`, you may write a stub for your function as follows:
 
 ```
-# sum_of_first_n_primes.py
+# is_prime.py
 
-def sum_of_first_n_primes(n):
+def is_prime(n):
   return "stub"
 
 ```
 
-### Step 2f: Write stub for function
+### Step 2f: Test your program (at command line or in IDLE)
 
-To test your program, you can do one of two things:
+At this point, you likely have a version that is suitable as a "starting point" for your students, in that it:
+* has clear instructions
+* has example tests (that fail)
+* has a stub for the function that compiles, but is incorrect.
 
-(1) At command line: run the command `python -m pytest test*.py`
-(2) In IDLE: Add the following to your `test_sum_of_n_primes.py` file at the end, and then run that file:
+But to be sure, you should test your program to make sure that the syntax is correct, and the stub fails the tests.
+
+You can do this either at the command line, or in IDLE:
+
+1. At command line: run the command `python -m pytest test*.py`
+2. In IDLE: Add the following to your `test_sum_of_n_primes.py` file at the end, and then run that file:
 ```Python
 if __name__ == '__main__':
     pytest.main()
 ```
 
-At this point, you likely have a version that is suitable as a "starting point" for your students.  Save a version of the files in this state.
+Once you are satisfied with the results, save a version of the files in this state.
 
 If you are developing in a private github repo, making a commit with an appropriate commit message, or even a version tag, is a good solution. Or you can just copy this to a particular subdirectory.
 
