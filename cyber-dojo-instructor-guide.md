@@ -114,6 +114,7 @@ isPrime(2253) returns False
 
 As a bonus, if the parameter is not a positive integer, indicate an exception
 in some way appropriate to the language.  For example, in Python, throw a ValueError
+'''
 ```
 
 Another example appears here [examples/sum_1st_n_primes/instructions](examples/sum_1st_n_primes/instructions).
