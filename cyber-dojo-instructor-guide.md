@@ -142,10 +142,10 @@ def test_is_prime_2():
   assert isPrime(2) == True
 
 def test_is_prime_2251():
-  assert isPrime(2251) == true
+  assert isPrime(2251) == True
   
 def test_is_prime_2253():
-  assert isPrime(2253) == false
+  assert isPrime(2253) == False
 
 
 # Note to students: continue writing additional tests
