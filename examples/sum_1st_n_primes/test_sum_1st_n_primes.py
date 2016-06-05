@@ -14,3 +14,10 @@ def test_negative_int_raises_ValueError():
 def test_param_not_an_int_raises_ValueError():
     with pytest.raises(ValueError):
         x = sum_1st_n_primes("foo")
+
+
+# The following ensures that tests are run if/when the file is 
+# executed in IDLE or via python test_is_prime.py at command line
+
+if __name__ == '__main__':
+    pytest.main()
