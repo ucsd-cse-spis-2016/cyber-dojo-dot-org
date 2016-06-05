@@ -206,25 +206,51 @@ But to be sure, you should test your program to make sure that the syntax is cor
 
 You can do this either at the command line, or in IDLE:
 
-1. At command line: run the command `python -m pytest test*.py`
+1. At command line: run the command `python -m pytest test*.py`.  This method has the advantage of color output (red for failed tests, green for passed tests).
+
 2. In IDLE: Add the following to your `test_is_prime.py` file at the end, and then run that file:
 ```Python
 if __name__ == '__main__':
-    pytest.main()
+    pytest.main("--color=no")
 ```
 
-Once you are satisfied with the results, save a version of the files in this state.
+The `"--color=no"` is used to surpress the ANSI Escape sequences for color, since these seem not to be supported in IDLE. If you just use `pytest.main()`, you may get the following ugly output:
+
+```
+=================================== FAILURES ===================================
+[1m[31m_______________________________ test_is_prime_1 ________________________________[0m
+
+[1m    def test_is_prime_1():[0m
+[1m>     assert isPrime(1) == False[0m
+[1m[31mE     assert 'stub' == False[0m
+[1m[31mE      +  where 'stub' = isPrime(1)[0m
+
+test_is_prime.py:27: AssertionError
+```
+
+Instead of: 
+
+```
+_______________________________ test_is_prime_1 ________________________________
+
+    def test_is_prime_1():
+>     assert isPrime(1) == False
+E     assert 'stub' == False
+E      +  where 'stub' = isPrime(1)
+
+test_is_prime.py:27: AssertionError
+```
+
+Once you are satisfied with the results, i.e. you have a clear problem statement, reasonable stub, and good starter tests,  save a version of the files in this state.  This is the version you will set up for the students.
 
 If you are developing in a private github repo, making a commit with an appropriate commit message, or even a version tag, is a good solution. Or you can just copy this to a particular subdirectory.
 
 ### Step 2g: Try solving the problem
 
-Provided you have saved a separate copy of the "starting point files", it is probably a good idea to try solving the problem outside of cyber-dojo at this point in a *different* directory.   That way, you can make sure that you are satified with the description of the problem, the choices for names of functions, etc.     
-
+Provided you have saved a separate copy of the "starting point files", it is may be a good idea to try solving the problem outside of cyber-dojo at this point in a *different* directory.   That way, you can make sure that you are satified with the description of the problem, the choices for names of functions, before setting up the final version in cyber-dojo.org. 
 Proceed, and then make any needed adjustments to the "starting point files" you saved earlier.
 
 You are now ready to set up the problem in cyber-dojo.org
-
 
 # Step 3: Set up your problem in cyber-dojo.org
 
