@@ -1,0 +1,13 @@
+Given a positive integer n, compute the sum of the first n primes.
+
+For example:
+ when n is 3, return 10 (2+3+5)
+ when n is 1, return 2
+ when n is 6, return 34 (2+3+5+7+11+13) 
+
+If n is not a positive integer, 
+signal the error in some way appropriate to the language.
+(e.g. in Python, throw the exception ValueError)
+
+You may want to write tests and an implementation for is_prime,
+and/or nth_prime first.
