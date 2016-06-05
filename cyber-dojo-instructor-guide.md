@@ -127,23 +127,31 @@ These instructions assume py.test.  For unittest, consult: [Using unittest with 
 In the file `test_`_problem_`.py`, write unit tests for your problem. For example, in the file test_sum_of_the_first_n_primes.py, you might write:
 
 ```Python
-
 import pytest
-from sum_of_first_n_primes import sum_of_first_n_primes
+from is_prime import is_prime
 
-def test_given_1_should_return_2():
-  assert sum_of_first_n_primes(1)==2
+def test_is_prime_1():
+   assert isPrime(1) == False
 
-def test_given_2_should_return_5():
-  assert sum_of_first_n_primes(2)==5
-  
+def test_is_prime_2():
+   assert isPrime(2) == True
+
+# Note to students: continue writing additional tests
+# following the model above.
+```Python
+
+If you want to show models of testing for exception conditions as well, you can include the following:
+
+```Python
 def test_bad_param_negative():
     with pytest.raises(ValueError):
-        x = sum_of_first_n_primes(-4)
+        x = isPrime(-42)
         
 def test_bad_param_string():
     with pytest.raises(ValueError):
-        x = sum_of_first_n_primes("foo")
+        x = isPrime("foo")
+```
+
         
 ```
 
