@@ -26,3 +26,9 @@ def test_raises_ValueError_when_n_is_float():
 def test_raises_ValueError_when_n_less_than_1():
   pytest.raises(ValueError):
     x=isPrime(0)
+
+# The following ensures that tests are run if/when the file is 
+# executed in IDLE or via python test_is_prime.py at command line
+
+if __name__ == '__main__':
+    pytest.main()
