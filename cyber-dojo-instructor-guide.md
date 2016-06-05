@@ -125,9 +125,13 @@ Then, when transferring the problem to cyber-dojo.org, the instructor can just c
 
 These instructions assume py.test.  For unittest, consult: [Using unittest with cyber-dojo.org](cyber-dojo-unittest.md)
 
-In the file `test_`_problem_`.py`, write unit tests for your problem. For example, in the file test_is_prime.py, you might write:
+In the file `test_`_problem_`.py`, after the instructions, write unit tests for your problem. For example, in the file test_is_prime.py, you might write:
 
 ```Python
+# test_is_prime.py
+'''
+  ... instructions may temporarily appear here ...
+'''
 import pytest
 from is_prime import is_prime
 
