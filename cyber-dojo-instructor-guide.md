@@ -162,12 +162,25 @@ So the next step is to create a a stub for the function we are testing in the fi
 
 For example, in the `is_prime.py`, you may write a stub for your function as follows:
 
-```
+```Python
 # is_prime.py
 
 def is_prime(n):
   return "stub"
 
+```
+
+If some part of the problem involves a new piece of syntax, or a trick, and you want to give a hint, you may like to include
+that in a comment in the stub.  For example, the following stub shows a hint for raising a `ValueError` when the 
+parameter is not an int
+
+```Python
+# is_prime.py
+
+def is_prime(n):
+  # if not isinstance(n, int):
+  #   raise ValueError("n should be an int")
+  return "stub"
 ```
 
 ### Step 2f: Test your program (at command line or in IDLE)
@@ -182,7 +195,7 @@ But to be sure, you should test your program to make sure that the syntax is cor
 You can do this either at the command line, or in IDLE:
 
 1. At command line: run the command `python -m pytest test*.py`
-2. In IDLE: Add the following to your `test_sum_of_n_primes.py` file at the end, and then run that file:
+2. In IDLE: Add the following to your `test_is_prime.py` file at the end, and then run that file:
 ```Python
 if __name__ == '__main__':
     pytest.main()
