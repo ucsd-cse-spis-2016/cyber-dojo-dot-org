@@ -93,22 +93,30 @@ pass? Which are open, which are closed?
 [Source http://rosettacode.org]
 ```
 
-In order to keep things simple while developing a problem, it is suggested that the instructor simply put the instructions in a multi-line string/comment at the top of the file `test_problem.py`.   For example, if the problem were *sum of the first n primes*, the instructor might start a new file called  `test_sum_of_the_first_n_primes.py`as follows:
+In order to keep things simple while developing a problem, it is suggested that the instructor simply put the instructions in a multi-line string/comment at the top of the file `test_problem.py`.   
+
+For example, if the problem were *test whether a number is prime or not* the instructor might start a new file called `test_is_prime.py` with the following instructions in a multi-line string/comment at the top of the file:
 
 ```Python
+# test_is_prime.py
 '''
-Given a positive integer n, compute the sum of the first n primes.
+Write a function is_prime, that given a positive integer n, 
+returns True if n is prime, and False if it is not prime.
 
-For example:
- when n is 3, return 10 (2+3+5)
- when n is 1, return 2
- when n is 6, return 34 (2+3+5+7+11+13) 
+Examples:
 
-If n is not a positive integer, 
-signal the error in some way appropriate to the language.
-(e.g. in Python, throw the exception ValueError)
-'''
+isPrime(1) returns False
+isPrime(2) returns True
+isPrime(7) returns True
+isPrime(9) returns False
+isPrime(2251) returns True
+isPrime(2253) returns False
+
+As a bonus, if the parameter is not a positive integer, indicate an exception
+in some way appropriate to the language.  For example, in Python, throw a ValueError
 ```
+
+Another example appears here [examples/sum_1st_n_primes/instructions](examples/sum_1st_n_primes/instructions).
 
 Then, when transferring the problem to cyber-dojo.org, the instructor can just copy and paste the text into the `instructions` file in the sample problem.
 
