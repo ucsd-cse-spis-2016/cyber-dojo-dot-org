@@ -304,6 +304,66 @@ In the same browser where you did step 3d, click **enter a practice session* as 
 
 ![cyber-dojo-enter-a-practice-session.png](/IMAGES/cyber-dojo-enter-a-practice-session.png)
 
+If you do this in the same browser session, this should take you to a screen where you see the same hexadecimal number you saw before.  If not, you can edit the hex number to be the one of the session 
+were in before.  Then click start:
 
-TODO: Continue with examples of pasting in the code, then clicking on the icon for the animal avatar, then clicking on "create a practice session from gorilla nn" where nn is the number of the iteration of the tests...
+That looks like this:
+
+![cyber-dojo-edit-number-then-click-start.png](/IMAGES/cyber-dojo-edit-number-then-click-start.png)
+
+You will then be assigned an animal as your avatar. Continue with the next step:
+
+## Step 3f: Accept your animal, then edit the files
+
+After clicking to start a session, you'll be assigned an animal. That looks like this. Your
+animal may be a different one (there are 64 animals in all):
+
+![cyber-dojo-your-animal-is-the-moose.png](/IMAGES/cyber-dojo-your-animal-is-the-moose.png)
+
+Click OK, then you'll see a screen like this one.  This is what the cyber-dojo.org site typically
+looks like when you first start working on a problem.
+
+![cyber-dojo-initial-sample-problem-verbal-moose.png](/IMAGES/cyber-dojo-initial-sample-problem-verbal-moose.png)
  
+To set this up as a new problem, there are three steps:
+
+1. Rename hiker.py to an appropriate name (e.g. is_prime.py), and paste in the appropriate contents.
+2. Rename test_hiker.py to an appropriate name (e.g. test_is_prime.py) and paste in the appropriate contents.
+3. Paste appropriate content into the instructions file.
+
+After those three steps, in Step 3g we'll save this into a new session.
+
+Here is some more detail about the renaming process:
+
+Each of the files can be selected by clicking on it so that it lights
+up (in the image above, test_hiker.py is selected.)  To rename a file,
+simply click the rename file button, as shown below.  The file being renamed
+is the one that is selected (as indicated by its name being highlighted at left.)
+
+![cyber-dojo-click-to-rename.png](/IMAGES/cyber-dojo-click-to-rename.png)
+
+When you click the rename button you get a modal to actually do the renaming.
+
+![cyber-dojo-rename-before.png](/IMAGES/cyber-dojo-rename-before.png)   
+
+The file can be edited in the modal.  Click OK to complete the renaming:
+
+![cyber-dojo-rename-after.png](/IMAGES/cyber-dojo-rename-after.png)
+
+Then, paste in the content that you prepared for the test_is_prime.py file.  Once you've 
+done that, you are ready to click on the instructions file to paste in its content.
+
+![cyber-dojo-select-instructions.png](/IMAGES/cyber-dojo-select-instructions.png)
+
+Paste in the appropriate content, i.e. the instructions for the problem.  
+
+Perform similar steps to change hiker.py to is_prime.py, 
+pasting in the stub version of the function.
+
+You can also add additional files, or delete files as needed (for example, if you want to decompose a problem into multiple files, each with its own tests.)
+
+When you have the files set up, it should look something like this:
+
+![cyber-dojo-initial-is-prime-moose.png](/IMAGES/cyber-dojo-initial-is-prime-moose.png)
+
+You are then ready to save this into a session that you can share with students as a new problem.
