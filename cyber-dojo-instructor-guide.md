@@ -133,7 +133,7 @@ In the file `test_`_problem_`.py`, after the instructions, write unit tests for 
   ... instructions may temporarily appear here ...
 '''
 import pytest
-from is_prime import is_prime
+from is_prime import isPrime
 
 def test_is_prime_1():
   assert isPrime(1) == False
@@ -177,7 +177,7 @@ For example, in the `is_prime.py`, you may write a stub for your function as fol
 ```Python
 # is_prime.py
 
-def is_prime(n):
+def isPrime(n):
   return "stub"
 
 ```
