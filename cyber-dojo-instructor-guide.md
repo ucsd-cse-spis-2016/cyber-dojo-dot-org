@@ -430,11 +430,27 @@ animals in the session (in a typical session, each of these is a
 separate student), and each of the test cases for each of the animals.
 When you find the one you want, you can click the "create a practice
 session" button at the bottom to create a brand-new stand-alone practice session with a new
-hexadecimal number.   That is the link you can give to your students:
+hexadecimal number.   
 
 ![cyber-dojo-create-a-new-practice-session.png](/IMAGES/cyber-dojo-create-a-new-practice-session.png)
 
+After you click, you get a new image like this one with a hexadecimal number.
+That is the number you can give to your students to identify your session. *Save this number*, because it may be difficult to retrieve later.    (In fact, your browser history is the only way to retrieve it if you don't record it somewhere.)
 
+You can also put the number at the end of a link such as this one, which links to our is_prime example:
+
+http://cyber-dojo.org/kata/edit/3CFC90 
+
+![cyber-dojo-create-a-new-practice-session-result.png](/IMAGES/cyber-dojo-create-a-new-practice-session-result.png)
+
+When you click ok, you are returned to the main page. If you then
+immediately click to "Enter a pratice session", you'll be shown a page with the same hexadecimal number of
+the new session you just created.
+
+Or, from any browser, you can change the number on the "enter a practice session" page to the one
+for the session you created.  
+
+When you then click "start", you'll be entered into the session you created.
 
 
 
