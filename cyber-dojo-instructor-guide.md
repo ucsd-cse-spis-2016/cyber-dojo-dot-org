@@ -372,4 +372,69 @@ You are now ready to try running your first test.  Click the test button as show
 
 ![cyber-dojo-click-here-to-run-test.png](/IMAGES/cyber-dojo-click-here-to-run-test.png)
  
+After running the test, this is what it will look like:
+
+![cyber-dojo-is-prime-after-first-test.png](/IMAGES/cyber-dojo-is-prime-after-first-test.png)
+
+The top row of this diagram shows some of the features of cyber-dojo
+that are important for instructors to understand:
+
+![cyber-dojo-first-test-top-row.png](/IMAGES/cyber-dojo-first-test-top-row.png)
+
+Reading left-to-right, we have:
+* A red circle, showing the status of the first test run (100% failure).
+* A number 1, indicating that this is the first test run.
+* Another red circle, showing the status of the most recent test run.
+* The animal avatar for this session (shark in this case), which links to the **dashboard** for this session.  
+
+Access to the dashboard via the animal avatar button is particularly 
+important to remember.  It is one of the least obvious, but yet important
+parts of the cyber-dojo.org user interface.
+
+Notice also that at this point, the `output` file is the selected one. This file is *read-only* and represents the results of running our test cases.  We can click back on the `output` link any time we want to come back to read these results.
+
+At this point, we have a choice, based on our examination of the 
+output from the test cases.
+
+* We may see problems with our files as they currently stand. For example:
+ - Some of the tests may be failing due to syntax or naming errors, rather than because we have correctly set up failing tests via stubs
+ - In this case, we should make the necessary edits to the files, and click test again.  We can iterate this until we are satisfied with our work.
+
+* OR, we may be satisfied that this represents a good starting
+point for students to work on this problem, we are ready to create a link for them to access this session.
+
+In the second case, the Step 4 below will explain how to "create a practice session" from the shark's work so far on this problem.
+
+
+## Step 4: Creating a new practice session
+
+Once you've set up a session that corresponds exactly to the starting point you want for your students, do the following three steps:
+
+1. Click the animal avatar in that session to access the dashboard.
+2. From the dashboard, click the same animal avatar again, to access the session review screen.  
+3. From the review screen, create your new practice session using the "create a new practice session from ____" button.
+
+Here's what that looks like:
+
+![cyber-dojo-click-animal-avatar-to-access-dashboard.png](/IMAGES/cyber-dojo-click-animal-avatar-to-access-dashboard.png)
+
+Clicking the animal avatar brings up the dashboard.  The dashboard is
+also accessible from the "dashboard" button on the cyber-dojo.org start page.
+
+You cannot create a new session directly from the dashboard.  Instead, you need to access the *review* screen.  To access the review screen, click on any of the animal avatar logos on the dashboard, as shown below.
+
+![cyber-dojo-dashboard.png](/IMAGES/cyber-dojo-dashboard.png)
+
+From the review screen (shown below), you can step through all of the
+animals in the session (in a typical session, each of these is a
+separate student), and each of the test cases for each of the animals.
+When you find the one you want, you can click the "create a practice
+session" button at the bottom to create a brand-new stand-alone practice session with a new
+hexadecimal number.   That is the link you can give to your students:
+
+![cyber-dojo-create-a-new-practice-session.png](/IMAGES/cyber-dojo-create-a-new-practice-session.png)
+
+
+
+
 
