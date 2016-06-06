@@ -366,4 +366,10 @@ When you have the files set up, it should look something like this:
 
 ![cyber-dojo-is-prime-starting-point-shark.png](/IMAGES/cyber-dojo-is-prime-starting-point-shark.png)
 
-You are then ready to save this into a session that you can share with students as a new problem.
+## Step 3g: Try running your first test
+
+You are now ready to try running your first test.  Click the test button as shown below:
+
+![cyber-dojo-click-here-to-run-test.png](/IMAGES/cyber-dojo-click-here-to-run-test.png)
+ 
+
